@@ -4,6 +4,8 @@ function PreviousValue(){ // to persist previous values of state by persisting t
     const [name, setName]= useState('')
     const previousName=useRef('')
 
+    // this component shows the persistent nature of the values passed by the ueRef() hook
+
     useEffect(()=>{
         previousName.current = name;
     },[name]);

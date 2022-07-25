@@ -10,6 +10,8 @@ import './App.css';
 //you can store previous values but it won't cause items to re-render
 // to store previous value of state
 
+//the following component sets to seek how many times a page has rendered each time a different input is passed in the input field
+
 function App() {
   const [name,setName] = useState(' ')
   const renderCount = useRef(0) // returns an object {current: 0}

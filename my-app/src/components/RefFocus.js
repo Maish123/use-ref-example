@@ -1,6 +1,8 @@
 import React, { useState,useRef } from "react";
 
-// to reference DOM elements on our page{in this case the input elements} when the button is pressed
+// this component is used to focus our attention on the particular DOM element, which is the input field when button is pressed
+
+
 
 function RefFocus(){
     const[name,setName] = useState('')
